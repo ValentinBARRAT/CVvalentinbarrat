@@ -1,0 +1,127 @@
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*global styles*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/*header styles*/
+
+header {
+    margin: 10px;
+    padding: 10px;
+    background-color: #807a7a;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #000000;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3939;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+    background-color: #3a3939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.Contact {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0fr;
+    background-color: rgb(194, 197, 197);
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #000000;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Liste {
+    margin-left: 10px;
+    list-style-type: square;
+}
+
+h2 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #554848;
+}
+
+.Parcours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Taches {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Taches1 {
+    list-style-type: none;
+}
